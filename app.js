@@ -10,9 +10,9 @@ app.listen(8081, function(){
 })
 
 app.get("/",function(req, res){
-    res.render("primeira_pagina")
+    res.render("primeirapagina")
 })
 
 app.get("/segunda",function(req, res){
-    res.render("segunda_pagina")
+    res.render("segundapagina")
 })
